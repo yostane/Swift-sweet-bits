@@ -26,7 +26,7 @@ handleNilWithoutGuardMethod1(str: nil)
 handleNilWithoutGuardMethod1(str: "hello")
 
 /**
- The inconvient with this code is that we have to add a line of code that unwraps the argument
+ The inconvient of this code is that we have to add a line of code that unwraps the argument
  
  We can avoid this using and if let s = arg statement like this.
  */
